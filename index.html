@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="./script.js"></script>
 </head>
-<body>
+<body onresize="resetNavigation()">
   <div id='header'>
     <div id='logo-div'>
       <div id='blah'>
@@ -19,16 +19,27 @@
         <a class="white">Contact</a>
       </div>
       <div class="dropdown">
-        <i class="material-icons white" id="header-menu" onclick="dropdown()">menu</i>
-        <div id="headerDropdown" class="dropdown-content">
-          <a class="white">Case Studies</a>
-          <a class="white">Contact</a>
-        </div>
+        <i class="material-icons white"
+         id="header-menu"
+         onclick="dropdown()"
+         >menu</i>
       </div>
     </div>
   </div>
-  <div class="content-panel">
-    <h1>Content</h1>
+
+  <div id='menu' class='menu'>
+    <a class="menu-btn">Case Studies</a>
+    <a class="menu-btn">Contact</a>
   </div>
+
+  <div id='content' class="content block">
+    <div class="content-panel">
+      <div class="inner-content">
+        <h1>Content</h1>
+        <p> some text about me. </p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
