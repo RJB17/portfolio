@@ -1,4 +1,4 @@
-function dropdown() {
+function navMenu() {
   document.getElementById("menu").classList.toggle("show");
   document.getElementById("content").classList.toggle("block");
 }
