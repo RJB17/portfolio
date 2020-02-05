@@ -1,9 +1,9 @@
 function navMenu() {
+  document.getElementById("header").classList.toggle("auto");
+  document.getElementById("hamburgerMenu").classList.toggle("change");
   document.getElementById("menu").classList.toggle("show");
-  document.getElementById("content").classList.toggle("block");
 }
 
 function resetNavigation() {
   document.getElementById("menu").classList.remove("show");
-  document.getElementById("content").classList.add("block");
 }
