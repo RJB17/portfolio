@@ -1,4 +1,4 @@
-§<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Rob Bowman</title>
@@ -6,7 +6,7 @@
   <script src="./script.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Poppins:500|Roboto&display=swap" rel="stylesheet">
 </head>
-<body onresize="resetNavigation()">
+<body>
 
   <header id="header">
     <div class='fixed-header'>
@@ -18,22 +18,11 @@
       </div>
 
       <div id="header-nav" class="header-nav">
-        <a class="header-btn" href="./index.html">About</a>
-        <a class="header-btn" href="./case_study.html">Case Studies</a>
+        <a class="nav-btn" href="./index.html">About</a>
+        <a class="nav-btn" href="./case_study.html">Case Studies</a>
+        <a class="nav-btn current" href="./contact.html">Contact</a>
       </div>
 
-      <div class="menu-hamburger">
-        <div id="hamburgerMenu" class="menu-btn-container" onclick="navMenu()">
-          <div class='bar1'></div>
-          <div class='bar2'></div>
-          <div class='bar3'></div>
-        </div>
-      </div>
-
-  </div>
-  <div id='menu' class='menu'>
-    <a href="./index.html" class="menu-btn">About</a>
-    <a href="./case_study.html" class="menu-btn">Case Studies</a>
   </div>
   </header>
 
@@ -45,6 +34,16 @@
       </div>
     </div>
   </div>
+
+  <footer id="footer">
+    <div class="fixed-footer">
+      <div class="footer-nav">
+        <a class="nav-btn" href="./index.html">About</a>
+        <a class="nav-btn current" href="./case_study.html">Case Studies</a>
+        <a class="nav-btn" href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

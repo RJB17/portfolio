@@ -8,10 +8,9 @@
   <script src="./script.js"></script>
 </head>
 
-<body onresize="resetNavigation()">
+<body>
 
   <header id="header">
-
     <div class='fixed-header'>
 
       <div class='logo-outer'>
@@ -21,23 +20,10 @@
       </div>
 
       <div id="header-nav" class="header-nav">
-          <a href="./index.html" class="header-btn">About</a>
-          <a class="header-btn">Contact</a>
+        <a class="nav-btn" href="./index.html">About</a>
+        <a class="nav-btn current" href="./case_study.html">Case Studies</a>
+        <a class="nav-btn" href="./contact.html">Contact</a>
       </div>
-
-      <div class="menu-hamburger">
-        <div id="hamburgerMenu" class="menu-btn-container" onclick="navMenu()">
-          <div class='bar1'></div>
-          <div class='bar2'></div>
-          <div class='bar3'></div>
-        </div>
-      </div>
-    </div>
-
-    <div id='menu' class='menu'>
-      <a href="./index.html" class="menu-btn">About</a>
-      <a href="./contact.html" class="menu-btn">Contact</a>
-    </div>
   </header>
 
   <div id='content' class="content block">
@@ -65,9 +51,18 @@
         <h2> Process </h2>
         <img src="./process.svg">
       </div>
-    <div>
+    </div>
   </div>
 
+  <footer id="footer">
+    <div class="fixed-footer">
+      <div class="footer-nav">
+        <a class="nav-btn" href="./index.html">About</a>
+        <a class="nav-btn current" href="./case_study.html">Case Studies</a>
+        <a class="nav-btn" href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
