@@ -2,10 +2,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -47,7 +43,8 @@ header {
   opacity: 100%;
 }
 .content-panel {
-  background-color: #E8E8E8;
+  background-color: #F0F0F0;
+  margin: 10px 0px;
 }
 
 .inner-content {
