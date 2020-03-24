@@ -82,6 +82,7 @@ footer {
   margin-top: 60px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 50px;
   opacity: 100%;
 }
 .content-panel {
@@ -118,6 +119,12 @@ footer {
 
 .header-nav a{
   padding: 10px;
+}
+
+#persona-img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
 }
 
 
