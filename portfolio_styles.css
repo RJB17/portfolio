@@ -212,3 +212,13 @@ footer {
 .active{
   background-color: #717171;
 }
+
+.video-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ucde-video {
+  width: 300px;
+  margin: 0;
+}
